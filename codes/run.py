@@ -13,8 +13,8 @@ from tensorflow.keras import layers
 from tokenizers import BertWordPieceTokenizer
 from transformers import RobertaConfig, TFRobertaForSequenceClassification, RobertaTokenizer, TFRobertaModel
 
-from scripts.roberta_mc import TFRobertaForMultipleChoice
-from scripts.data_process import *
+from codes.roberta_mc import TFRobertaForMultipleChoice
+from codes.data_process import *
 
 
 def select_from_features(features, filter):
