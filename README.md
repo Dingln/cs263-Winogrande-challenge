@@ -34,6 +34,16 @@ mv winogrande_1.1 data
 rm winogrande_1.1.zip
 ```
 
+Using the CLS token for classification:
+```shell
+cp codes/roberta_mc_cls.py codes/roberta_mc.py
+```
+
+Using all tokens for classfication:
+```shell
+cp codes/roberta_mc_all_token.py codes/roberta_mc.py
+```
+
 Train and evaluate:
 
 ```shell
