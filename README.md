@@ -13,7 +13,7 @@ cs263-final-project
   |__
      |__ codes
         |__ __init__.py
-        |__ run_refactored.py
+        |__ run.py
         |__ data_process.py
         |__ roberta_mc.py
         |__ roberta_mc_cls.py
@@ -39,6 +39,6 @@ Train and evaluate:
 ```shell
 export PYTHONPATH=$PYTHONPATH:$(pwd)
 
-python3 codes/run_refactored.py --model_name roberta-large --train_batch_size 32 --learning_rate 1e-5 --num_train_epochs 3 --output_dir ./output/models --train --eval --overwrite_output_dir |& tee result.txt
+python3 codes/run.py --model_name roberta-large --train_batch_size 32 --learning_rate 1e-5 --num_train_epochs 3 --output_dir ./output/models --train --eval --overwrite_output_dir |& tee result.txt
 ```
 
