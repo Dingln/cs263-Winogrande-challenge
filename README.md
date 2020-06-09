@@ -1,4 +1,4 @@
-### Running Requirements and Dependencies:
+### Running Requirements and Dependencies
 
 * Single NVIDIA GPU and at least 60 GB memory
 * TensorFlow 2.2
@@ -6,7 +6,7 @@
 
 
 
-### Code Structure:
+### Code Structure
 
  ```
 cs263-final-project
@@ -23,7 +23,7 @@ cs263-final-project
 
 
 
-### Running Command
+### Running Commands
 
 Download the Data-set:
 
